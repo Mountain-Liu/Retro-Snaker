@@ -1,0 +1,28 @@
+package snake;
+
+public class Node {
+	private int NodeX;
+	private int NodeY;
+	
+	public Node(int NodeX, int NodeY){
+		this.NodeX = NodeX;
+		this.NodeY = NodeY;
+	}
+	
+	public int getNodeX() {
+		return this.NodeX;
+	}
+	
+	public void setNodeX(int NodeX) {
+		this.NodeX = NodeX;
+	}
+	
+	public int getNodeY() {
+		return this.NodeY;
+	}
+	
+	public void setNodeY(int NodeY) {
+		this.NodeY = NodeY;
+	}
+}
+
